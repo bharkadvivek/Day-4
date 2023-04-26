@@ -1,4 +1,8 @@
 
+//Convert both JSON objects to strings using the JSON.stringify() method.
+//Compare the two strings to see if they are equal.
+
+
 let obj1 = {name : "Person 1", age:5};
 let obj2= {age:5, name: "Person 1"};
 
