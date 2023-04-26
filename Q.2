@@ -3,6 +3,7 @@ const request =new XMLHttpRequest();
 request.onload=function(){
 const data = JSON.parse(this.responseText);
 data.forEach((element) => {
+console.log(element.flag)
 console.log(element.flags.png);
 });
 };
